@@ -1,0 +1,11 @@
+{
+  "videoplayback": {
+    "category": "record",
+    "sounds": [
+      {
+        "name": "funnyideas:videoplayback_1",
+        "stream": true
+      }
+    ]
+  }
+}

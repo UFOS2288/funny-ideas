@@ -1,0 +1,12 @@
+{
+  "group": "funnyideas",
+  "type": "minecraft:campfire_cooking",
+  "experience": 10,
+  "cookingtime": 80,
+  "ingredient": {
+    "item": "minecraft:sugar"
+  },
+  "result": {
+    "item": "funnyideas:caramel"
+  }
+}

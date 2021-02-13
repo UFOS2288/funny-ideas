@@ -1,0 +1,26 @@
+{
+  "_fv": 13,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "steak",
+    "customModelName": "Normal",
+    "name": "Steak With Beet Sause",
+    "rarity": "UNCOMMON",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:UFOSIdeasTab"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 7,
+    "saturation": 4.0,
+    "eatingSpeed": 30,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": true,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

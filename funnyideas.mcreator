@@ -1,0 +1,753 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "UFOSIdeasTab",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ufos_ideas_tab"
+    },
+    {
+      "name": "BeetSauseFoodEaten",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beet_sause_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BeetSause",
+      "type": "food",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beet_sause"
+    },
+    {
+      "name": "BeetSauseRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "beet_sause_recipe"
+    },
+    {
+      "name": "SteakWithBeetSause",
+      "type": "food",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steak_with_beet_sause"
+    },
+    {
+      "name": "SteakWithBeetSaus",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "steak_with_beet_saus"
+    },
+    {
+      "name": "SoySause",
+      "type": "food",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soy_sause"
+    },
+    {
+      "name": "SoySauceRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "soy_sauce_recipe"
+    },
+    {
+      "name": "RabbitWithHoneyAndSoySauce",
+      "type": "food",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rabbit_with_honey_and_soy_sauce"
+    },
+    {
+      "name": "Wrapper",
+      "type": "item",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wrapper"
+    },
+    {
+      "name": "PaperRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "paper_recipe"
+    },
+    {
+      "name": "AppleCandy",
+      "type": "food",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "apple_candy"
+    },
+    {
+      "name": "RottenFlashCandy",
+      "type": "food",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rotten_flash_candy"
+    },
+    {
+      "name": "RottenFlashCandyFoodEaten",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rotten_flash_candy_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Candy",
+      "type": "food",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "candy"
+    },
+    {
+      "name": "Caramel",
+      "type": "food",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "caramel"
+    },
+    {
+      "name": "CaramelRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "caramel_recipe"
+    },
+    {
+      "name": "CandyRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "candy_recipe"
+    },
+    {
+      "name": "AppleCandyRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "apple_candy_recipe"
+    },
+    {
+      "name": "RottenFlashCandyRecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rotten_flash_candy_recipe"
+    },
+    {
+      "name": "RabbitRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rabbit_recipe"
+    },
+    {
+      "name": "Omlette",
+      "type": "food",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "omlette"
+    },
+    {
+      "name": "Coffee",
+      "type": "plant",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coffee"
+    },
+    {
+      "name": "SoPathUP",
+      "type": "musicdisc",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "so_path_up"
+    },
+    {
+      "name": "OmletteRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "omlette_recipe"
+    },
+    {
+      "name": "Cup",
+      "type": "item",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cup"
+    },
+    {
+      "name": "CupWithCoffeeKoghdaIedaSiediena",
+      "type": "procedure",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cup_with_coffee_koghda_ieda_siediena",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CupWithCoffee",
+      "type": "food",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cup_with_coffee"
+    },
+    {
+      "name": "CupRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cup_recipe"
+    },
+    {
+      "name": "Pot",
+      "type": "item",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pot"
+    },
+    {
+      "name": "PotWithCoffeeKoghdaPriedmietNakhoditsiaVRukie",
+      "type": "procedure",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pot_with_coffee_koghda_priedmiet_nakhoditsia_v_rukie",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "PotWithCoffee",
+      "type": "item",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pot_with_coffee"
+    },
+    {
+      "name": "PotRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pot_recipe"
+    },
+    {
+      "name": "BoilingWater",
+      "type": "food",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boiling_water"
+    },
+    {
+      "name": "BoilingWaterKoghdaIedaSiediena",
+      "type": "procedure",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boiling_water_koghda_ieda_siediena",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "BoilingWaterRecipe",
+      "type": "recipe",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boiling_water_recipe"
+    },
+    {
+      "name": "CoffeePotRecipe",
+      "type": "recipe",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coffee_pot_recipe"
+    },
+    {
+      "name": "CoffeeCupRecipe",
+      "type": "recipe",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "coffee_cup_recipe"
+    },
+    {
+      "name": "RubinIngot",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubin_ingot"
+    },
+    {
+      "name": "RubinOre",
+      "type": "block",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubin_ore"
+    },
+    {
+      "name": "RubinBlock",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubin_block"
+    },
+    {
+      "name": "RubinOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubin_ore_block_recipe"
+    },
+    {
+      "name": "RubinBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubin_block_ore_recipe"
+    },
+    {
+      "name": "RubinOreSmelting",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubin_ore_smelting"
+    },
+    {
+      "name": "RubinArmor",
+      "type": "armor",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubin_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "RubinArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubin_armor_helmet_recipe"
+    },
+    {
+      "name": "RubinArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubin_armor_body_recipe"
+    },
+    {
+      "name": "RubinArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubin_armor_leggings_recipe"
+    },
+    {
+      "name": "RubinArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubin_armor_boots_recipe"
+    },
+    {
+      "name": "RubinPickaxe",
+      "type": "tool",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubin_pickaxe"
+    },
+    {
+      "name": "RubinAxe",
+      "type": "tool",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubin_axe"
+    },
+    {
+      "name": "RubinSword",
+      "type": "tool",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubin_sword"
+    },
+    {
+      "name": "RubinShovel",
+      "type": "tool",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubin_shovel"
+    },
+    {
+      "name": "RubinHoe",
+      "type": "tool",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubin_hoe"
+    },
+    {
+      "name": "RubinPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubin_pickaxe_recipe"
+    },
+    {
+      "name": "RubinAxeRecipe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubin_axe_recipe"
+    },
+    {
+      "name": "RubinSwordRecipe",
+      "type": "recipe",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubin_sword_recipe"
+    },
+    {
+      "name": "RubinShovelRecipe",
+      "type": "recipe",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubin_shovel_recipe"
+    },
+    {
+      "name": "RubinHoeRecipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rubin_hoe_recipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "videoplayback",
+      "files": [
+        "videoplayback_1"
+      ],
+      "category": "record",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "ru_ru": {
+      "item.funnyideas.rotten_flash_candy": "Rotten Flash Candy",
+      "item.ufosideas.rubin_sword": "Рубиновый меч",
+      "item.funnyideas.apple_candy": "Apple Candy",
+      "item.ufosideas.so_path_up.desc": "Kool and the Gang - Fresh 1985",
+      "item.funnyideas.boiling_water": "Boiling Water",
+      "item.funnyideas.rubin_sword": "Rubin Sword",
+      "item.ufosideas.apple_candy": "Яблочная конфета",
+      "item.funnyideas.rubin_armor_chestplate": "Rubin Chestplate",
+      "item.ufosideas.wrapper": "Фантик",
+      "item.ufosideas.so_path_up": "So Path UP!",
+      "item.ufosideas.rubin_hoe": "Рубиновая мотыга",
+      "block.funnyideas.rubin_block": "Block of Rubin",
+      "item.funnyideas.rubin_armor_boots": "Rubin Boots",
+      "item.ufosideas.rubin_armor_helmet": "Рубиновый шлем",
+      "block.funnyideas.rubin_ore": "Rubin Ore",
+      "item.funnyideas.soy_sause": "Soy Sause",
+      "item.funnyideas.wrapper": "Wrapper",
+      "item.funnyideas.rubin_axe": "Rubin Axe",
+      "item.funnyideas.rubin_shovel": "Rubin Shovel",
+      "item.funnyideas.steak_with_beet_sause": "Steak With Beet Sause",
+      "block.ufosideas.rubin_ore": "Рубиновая руда",
+      "item.ufosideas.soy_sause": "Соевый соус",
+      "item.funnyideas.beet_sause": "Beet Sause",
+      "item.funnyideas.omlette": "Omelette",
+      "item.ufosideas.rubin_armor_boots": "Рубиновые ботнки",
+      "item.ufosideas.rubin_shovel": "Рубиновая лопата",
+      "itemGroup.tabufos_ideas_tab": "UFOS Ideas",
+      "item.funnyideas.candy": "Candy",
+      "item.ufosideas.cup": "Чашка",
+      "item.funnyideas.rubin_armor_leggings": "Rubin Leggings",
+      "item.funnyideas.so_path_up.desc": "Kool and the Gang - Fresh 1985",
+      "item.funnyideas.caramel": "Caramel",
+      "item.ufosideas.beet_sause": "Свекольный соус",
+      "item.ufosideas.omlette": "Омлет",
+      "item.funnyideas.rubin_ingot": "Rubin",
+      "item.ufosideas.rubin_axe": "Рубиновый топор",
+      "item.ufosideas.rotten_flash_candy": "Конфета из гнилой плоти",
+      "item.ufosideas.rubin_armor_chestplate": "Рубиновый нагрудник",
+      "item.funnyideas.so_path_up": "So Path UP!",
+      "item.ufosideas.pot": "Чайник",
+      "item.ufosideas.caramel": "Карамель",
+      "block.ufosideas.coffee": "Кофе",
+      "item.ufosideas.boiling_water": "Кипящая вода",
+      "block.ufosideas.rubin_block": "Блок рубина",
+      "item.funnyideas.rabbit_with_honey_and_soy_sauce": "Rabbit With Honey And Soy Sauce",
+      "item.funnyideas.pot": "Pot",
+      "item.funnyideas.rubin_pickaxe": "Rubin Pickaxe",
+      "item.ufosideas.pot_with_coffee": "Чайник с кофе",
+      "item.ufosideas.rubin_pickaxe": "Рубиновая кирка",
+      "item.funnyideas.rubin_armor_helmet": "Rubin Helmet",
+      "subtitles.videoplayback": "",
+      "item.ufosideas.steak_with_beet_sause": "Стейк с свекольным соусом",
+      "item.ufosideas.rabbit_with_honey_and_soy_sauce": "Кролик с мёдом и соевым соусом",
+      "item.ufosideas.candy": "Конфетка",
+      "item.funnyideas.cup_with_coffee": "Cup With Coffee",
+      "item.ufosideas.rubin_ingot": "Рубиновый слиток",
+      "block.funnyideas.coffee": "Coffee",
+      "item.funnyideas.pot_with_coffee": "Pot With Coffee",
+      "item.ufosideas.cup_with_coffee": "Чашка с кофе",
+      "item.funnyideas.cup": "Cup",
+      "item.funnyideas.rubin_hoe": "Rubin Hoe",
+      "item.ufosideas.rubin_armor_leggings": "РУбиновые поножи"
+    },
+    "en_us": {
+      "item.funnyideas.rotten_flash_candy": "Rotten Flash Candy",
+      "item.ufosideas.rubin_sword": "Rubin Sword",
+      "item.funnyideas.apple_candy": "Apple Candy",
+      "item.ufosideas.so_path_up.desc": "Kool and the Gang - Fresh 1985",
+      "item.funnyideas.boiling_water": "Boiling Water",
+      "item.funnyideas.rubin_sword": "Rubin Sword",
+      "item.ufosideas.apple_candy": "Apple Candy",
+      "item.funnyideas.rubin_armor_chestplate": "Rubin Chestplate",
+      "item.ufosideas.wrapper": "Wrapper",
+      "item.ufosideas.so_path_up": "So Path UP!",
+      "item.ufosideas.rubin_hoe": "Rubin Hoe",
+      "block.funnyideas.rubin_block": "Block of Rubin",
+      "item.funnyideas.rubin_armor_boots": "Rubin Boots",
+      "item.ufosideas.rubin_armor_helmet": "Rubin Helmet",
+      "block.funnyideas.rubin_ore": "Rubin Ore",
+      "item.funnyideas.soy_sause": "Soy Sause",
+      "item.funnyideas.wrapper": "Wrapper",
+      "item.funnyideas.rubin_axe": "Rubin Axe",
+      "item.funnyideas.rubin_shovel": "Rubin Shovel",
+      "item.funnyideas.steak_with_beet_sause": "Steak With Beet Sause",
+      "block.ufosideas.rubin_ore": "Rubin Ore",
+      "item.ufosideas.soy_sause": "Soy Sause",
+      "item.funnyideas.beet_sause": "Beet Sause",
+      "item.funnyideas.omlette": "Omelette",
+      "item.ufosideas.rubin_armor_boots": "Rubin Boots",
+      "item.ufosideas.rubin_shovel": "Rubin Shovel",
+      "itemGroup.tabufos_ideas_tab": "UFOS Ideas",
+      "item.funnyideas.candy": "Candy",
+      "item.ufosideas.cup": "Cup",
+      "item.funnyideas.rubin_armor_leggings": "Rubin Leggings",
+      "item.funnyideas.so_path_up.desc": "Kool and the Gang - Fresh 1985",
+      "item.funnyideas.caramel": "Caramel",
+      "item.ufosideas.omlette": "Omelette",
+      "item.ufosideas.beet_sause": "Beet Sause",
+      "item.funnyideas.rubin_ingot": "Rubin",
+      "item.ufosideas.rubin_axe": "Rubin Axe",
+      "item.ufosideas.rotten_flash_candy": "Rotten Flash Candy",
+      "item.ufosideas.rubin_armor_chestplate": "Rubin Chestplate",
+      "item.funnyideas.so_path_up": "So Path UP!",
+      "item.ufosideas.pot": "Pot",
+      "item.ufosideas.caramel": "Caramel",
+      "block.ufosideas.coffee": "Coffee",
+      "item.ufosideas.boiling_water": "Boiling Water",
+      "block.ufosideas.rubin_block": "Block of Rubin",
+      "item.funnyideas.rabbit_with_honey_and_soy_sauce": "Rabbit With Honey And Soy Sauce",
+      "item.funnyideas.pot": "Pot",
+      "item.funnyideas.rubin_pickaxe": "Rubin Pickaxe",
+      "item.ufosideas.pot_with_coffee": "Pot With Coffee",
+      "item.ufosideas.rubin_pickaxe": "Rubin Pickaxe",
+      "item.funnyideas.rubin_armor_helmet": "Rubin Helmet",
+      "item.ufosideas.rabbit_with_honey_and_soy_sauce": "Rabbit With Honey And Soy Sauce",
+      "item.ufosideas.steak_with_beet_sause": "Steak With Beet Sause",
+      "subtitles.videoplayback": "",
+      "item.ufosideas.candy": "Candy",
+      "item.funnyideas.cup_with_coffee": "Cup With Coffee",
+      "item.ufosideas.rubin_ingot": "Rubin",
+      "block.funnyideas.coffee": "Coffee",
+      "item.funnyideas.pot_with_coffee": "Pot With Coffee",
+      "item.ufosideas.cup_with_coffee": "Cup With Coffee",
+      "item.funnyideas.cup": "Cup",
+      "item.funnyideas.rubin_hoe": "Rubin Hoe",
+      "item.ufosideas.rubin_armor_leggings": "Rubin Leggings"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "funnyideas",
+    "modName": "Funny Ideas",
+    "version": "1.0.0",
+    "author": "UFOS,DanMit, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "credits": "Ты кто? Я изя ламбер",
+    "modElementsPackage": "net.mcreator.funnyideas",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000547520
+}

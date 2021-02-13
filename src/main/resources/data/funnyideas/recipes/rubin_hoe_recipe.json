@@ -1,0 +1,27 @@
+{
+  "group": "funnyideas",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "funnyideas:rubin_ingot"
+    },
+    "1": {
+      "item": "funnyideas:rubin_ingot"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "funnyideas:rubin_hoe",
+    "count": 1
+  }
+}

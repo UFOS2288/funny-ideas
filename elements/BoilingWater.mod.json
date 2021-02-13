@@ -1,0 +1,29 @@
+{
+  "_fv": 13,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "boilingwater",
+    "customModelName": "Normal",
+    "name": "Boiling Water",
+    "rarity": "COMMON",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:UFOSIdeasTab"
+    },
+    "stackSize": 1,
+    "nutritionalValue": 1,
+    "saturation": 0.3,
+    "eatingSpeed": 10,
+    "resultItem": {
+      "value": "Items.GLASS_BOTTLE"
+    },
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "drink",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "BoilingWaterKoghdaIedaSiediena"
+    }
+  }
+}

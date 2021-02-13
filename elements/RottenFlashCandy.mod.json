@@ -1,0 +1,29 @@
+{
+  "_fv": 13,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "rottenflashcandy",
+    "customModelName": "Normal",
+    "name": "Rotten Flash Candy",
+    "rarity": "COMMON",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:UFOSIdeasTab"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 1,
+    "saturation": 2.0,
+    "eatingSpeed": 10,
+    "resultItem": {
+      "value": "CUSTOM:Wrapper"
+    },
+    "forDogs": false,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "RottenFlashCandyFoodEaten"
+    }
+  }
+}

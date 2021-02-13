@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "funnyideas:blocks/rubin_ore",
+    "particle": "funnyideas:blocks/rubin_ore"
+  }
+}

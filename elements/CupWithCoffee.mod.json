@@ -1,0 +1,29 @@
+{
+  "_fv": 13,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "cupwithcoffee",
+    "customModelName": "Normal",
+    "name": "Cup With Coffee",
+    "rarity": "UNCOMMON",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:UFOSIdeasTab"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 2,
+    "saturation": 10.0,
+    "eatingSpeed": 23,
+    "resultItem": {
+      "value": "CUSTOM:Cup"
+    },
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "drink",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "CupWithCoffeeKoghdaIedaSiediena"
+    }
+  }
+}

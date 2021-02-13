@@ -1,0 +1,16 @@
+{
+  "group": "funnyideas",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:brown_dye"
+    },
+    {
+      "item": "minecraft:clay_ball"
+    }
+  ],
+  "result": {
+    "item": "funnyideas:cup",
+    "count": 1
+  }
+}

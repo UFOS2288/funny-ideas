@@ -1,0 +1,16 @@
+{
+  "group": "funnyideas",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:paper"
+    },
+    {
+      "item": "funnyideas:caramel"
+    }
+  ],
+  "result": {
+    "item": "funnyideas:candy",
+    "count": 2
+  }
+}

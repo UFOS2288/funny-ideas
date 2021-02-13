@@ -1,0 +1,19 @@
+{
+  "group": "funnyideas",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:honey_bottle"
+    },
+    {
+      "item": "funnyideas:soy_sause"
+    },
+    {
+      "item": "minecraft:cooked_rabbit"
+    }
+  ],
+  "result": {
+    "item": "funnyideas:rabbit_with_honey_and_soy_sauce",
+    "count": 1
+  }
+}

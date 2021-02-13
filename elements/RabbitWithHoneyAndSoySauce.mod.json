@@ -1,0 +1,26 @@
+{
+  "_fv": 13,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "cooked_rabbit",
+    "customModelName": "Normal",
+    "name": "Rabbit With Honey And Soy Sauce",
+    "rarity": "UNCOMMON",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:UFOSIdeasTab"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 10,
+    "saturation": 4.0,
+    "eatingSpeed": 37,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": true,
+    "isAlwaysEdible": false,
+    "animation": "eat",
+    "hasGlow": false
+  }
+}

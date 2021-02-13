@@ -1,0 +1,21 @@
+modLoader="javafml"
+loaderVersion="[31,)"
+
+[[mods]]
+modId="funnyideas"
+version="1.0.0"
+displayName="Funny Ideas"
+credits="Ты кто? Я изя ламбер"
+displayURL="https://mcreator.net"
+authors="UFOS,DanMit, MCreator"
+
+[[dependencies.funnyideas]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.15.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+
