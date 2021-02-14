@@ -7,5 +7,23 @@
         "stream": true
       }
     ]
+  },
+  "sssss": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "funnyideas1:record_online-voice-recorder.com",
+        "stream": false
+      }
+    ]
+  },
+  "healing": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "funnyideas1:e195b149a44ecb9",
+        "stream": false
+      }
+    ]
   }
 }

@@ -14,13 +14,13 @@
     "stackSize": 64,
     "nutritionalValue": 2,
     "saturation": 3.0,
-    "eatingSpeed": 10,
+    "eatingSpeed": 20,
     "resultItem": {
       "value": "Items.STICK"
     },
     "forDogs": false,
     "isAlwaysEdible": true,
-    "animation": "eat",
+    "animation": "drink",
     "hasGlow": false
   }
 }

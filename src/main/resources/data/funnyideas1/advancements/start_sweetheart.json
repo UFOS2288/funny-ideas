@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "funnyideas1:caramel"
+    },
+    "title": {
+      "translate": "advancements.start_sweetheart.title"
+    },
+    "description": {
+      "translate": "advancements.start_sweetheart.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "start_sweetheart": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "funnyideas1:caramel",
+            "count": {
+              "min": 1,
+              "max": 100
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 3
+  },
+  "parent": "funnyideas1:first"
+}

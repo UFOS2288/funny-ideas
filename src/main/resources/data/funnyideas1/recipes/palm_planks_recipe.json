@@ -1,0 +1,13 @@
+{
+  "group": "funnyideas1",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:palm_log"
+    }
+  ],
+  "result": {
+    "item": "funnyideas1:palm_planks",
+    "count": 4
+  }
+}

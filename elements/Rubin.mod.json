@@ -5,10 +5,10 @@
     "renderType": 0,
     "texture": "rubin_gem",
     "customModelName": "Normal",
-    "name": "Rubin",
+    "name": "Ruby",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:UFOSIdeasTab"
     },
     "stackSize": 64,
     "enchantability": 0,

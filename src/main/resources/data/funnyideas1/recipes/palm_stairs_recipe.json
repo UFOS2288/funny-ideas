@@ -1,0 +1,33 @@
+{
+  "group": "funnyideas1",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "funnyideas1:palm_planks"
+    },
+    "3": {
+      "item": "funnyideas1:palm_planks"
+    },
+    "4": {
+      "item": "funnyideas1:palm_planks"
+    },
+    "6": {
+      "item": "funnyideas1:palm_planks"
+    },
+    "7": {
+      "item": "funnyideas1:palm_planks"
+    },
+    "8": {
+      "item": "funnyideas1:palm_planks"
+    }
+  },
+  "result": {
+    "item": "funnyideas1:palm_stairs",
+    "count": 4
+  }
+}

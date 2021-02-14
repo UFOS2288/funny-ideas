@@ -1,0 +1,13 @@
+{
+  "group": "funnyideas1",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "funnyideas1:salt_block"
+    }
+  ],
+  "result": {
+    "item": "funnyideas1:salt_dust",
+    "count": 9
+  }
+}

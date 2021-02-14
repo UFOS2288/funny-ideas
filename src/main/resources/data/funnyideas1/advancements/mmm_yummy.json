@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "funnyideas1:rabbit_with_honey_and_soy_sauce"
+    },
+    "title": {
+      "translate": "advancements.mmm_yummy.title"
+    },
+    "description": {
+      "translate": "advancements.mmm_yummy.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "mmm_yummy": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "funnyideas1:rabbit_with_honey_and_soy_sauce",
+            "count": {
+              "min": 1,
+              "max": 100
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 7
+  },
+  "parent": "funnyideas1:ugh_how_salty_it_is"
+}

@@ -11,13 +11,13 @@
     "enableBoots": true,
     "textureBoots": "rubins_boots",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:UFOSIdeasTab"
     },
     "armorTextureFile": "rubins",
-    "helmetName": "Rubins Helmet",
-    "bodyName": "Rubins Chestplate",
-    "leggingsName": "Rubins Leggings",
-    "bootsName": "Rubins Boots",
+    "helmetName": "Ruby Helmet",
+    "bodyName": "Ruby Chestplate",
+    "leggingsName": "Ruby Leggings",
+    "bootsName": "Ruby Boots",
     "helmetSpecialInfo": [],
     "bodySpecialInfo": [],
     "leggingsSpecialInfo": [],

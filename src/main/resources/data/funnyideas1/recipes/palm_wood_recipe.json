@@ -1,0 +1,26 @@
+{
+  "group": "funnyideas1",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "funnyideas1:palm_log"
+    },
+    "1": {
+      "item": "funnyideas1:palm_log"
+    },
+    "2": {
+      "item": "funnyideas1:palm_log"
+    },
+    "3": {
+      "item": "funnyideas1:palm_log"
+    }
+  },
+  "result": {
+    "item": "funnyideas1:palm_wood",
+    "count": 3
+  }
+}

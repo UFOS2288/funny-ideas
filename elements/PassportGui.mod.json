@@ -1,0 +1,136 @@
+{
+  "_fv": 13,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 173,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "Items.PAPER"
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 159,
+          "y": 47
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Passport",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Passport",
+          "x": 189,
+          "y": 35
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Name:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Name:",
+          "x": 131,
+          "y": 54
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "Items.PAPER"
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 201,
+          "y": 45
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Job:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Job:",
+          "x": 181,
+          "y": 54
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Year of birth:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Year of birth:",
+          "x": 130,
+          "y": 71
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "Items.PAPER"
+          },
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 201,
+          "y": 68
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "text": "Nation:",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Nation:",
+          "x": 222,
+          "y": 53
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": "Items.PAPER"
+          },
+          "id": 3,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #3",
+          "x": 258,
+          "y": 45
+        }
+      }
+    ]
+  }
+}

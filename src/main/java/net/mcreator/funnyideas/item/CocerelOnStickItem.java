@@ -37,12 +37,17 @@ public class CocerelOnStickItem extends Funnyideas1ModElements.ModElement {
 
 		@Override
 		public int getUseDuration(ItemStack stack) {
-			return 10;
+			return 20;
 		}
 
 		@Override
 		public UseAction getUseAction(ItemStack itemstack) {
-			return UseAction.EAT;
+			return UseAction.DRINK;
+		}
+
+		@Override
+		public net.minecraft.util.SoundEvent getEatSound() {
+			return net.minecraft.util.SoundEvents.ENTITY_GENERIC_DRINK;
 		}
 
 		@Override

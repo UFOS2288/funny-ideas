@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "funnyideas1:boiling_water"
+    },
+    "title": {
+      "translate": "advancements.you_are_idiot.title"
+    },
+    "description": {
+      "translate": "advancements.you_are_idiot.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "you_are_idiot": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "funnyideas1:boiling_water"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "funnyideas1:first"
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "funnyideas1:block/palm_slab"
+    },
+    "type=top": {
+      "model": "funnyideas1:block/palm_slab_top"
+    },
+    "type=double": {
+      "model": "funnyideas1:block/palm_slab_full"
+    }
+  }
+}

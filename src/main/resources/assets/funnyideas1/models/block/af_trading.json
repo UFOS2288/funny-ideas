@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "funnyideas1:blocks/afktorg_up",
+    "up": "funnyideas1:blocks/afktorg_up",
+    "north": "funnyideas1:blocks/afktorg_front",
+    "east": "funnyideas1:blocks/afktorg_up",
+    "south": "funnyideas1:blocks/afktorg_up",
+    "west": "funnyideas1:blocks/afktorg_up",
+    "particle": "funnyideas1:blocks/afktorg_up"
+  }
+}

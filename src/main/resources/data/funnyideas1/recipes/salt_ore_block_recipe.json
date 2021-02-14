@@ -1,0 +1,42 @@
+{
+  "group": "funnyideas1",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "funnyideas1:salt_dust"
+    },
+    "1": {
+      "item": "funnyideas1:salt_dust"
+    },
+    "2": {
+      "item": "funnyideas1:salt_dust"
+    },
+    "3": {
+      "item": "funnyideas1:salt_dust"
+    },
+    "4": {
+      "item": "funnyideas1:salt_dust"
+    },
+    "5": {
+      "item": "funnyideas1:salt_dust"
+    },
+    "6": {
+      "item": "funnyideas1:salt_dust"
+    },
+    "7": {
+      "item": "funnyideas1:salt_dust"
+    },
+    "8": {
+      "item": "funnyideas1:salt_dust"
+    }
+  },
+  "result": {
+    "item": "funnyideas1:salt_block",
+    "count": 1
+  }
+}

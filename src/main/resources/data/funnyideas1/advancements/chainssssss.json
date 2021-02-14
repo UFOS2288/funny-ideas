@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "funnyideas1:chain"
+    },
+    "title": {
+      "translate": "advancements.chainssssss.title"
+    },
+    "description": {
+      "translate": "advancements.chainssssss.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "chainssssss": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "funnyideas1:chain",
+            "count": {
+              "min": 1,
+              "max": 100
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 13
+  },
+  "parent": "funnyideas1:this_ring_is_beautiful"
+}

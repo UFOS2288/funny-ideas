@@ -1,0 +1,25 @@
+{
+  "_fv": 13,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Rich Pinocchio!",
+    "achievementDescription": "Place a Block Of Ruby!",
+    "achievementIcon": {
+      "value": "CUSTOM:RubinBlock"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": false,
+    "rewardLoot": [],
+    "rewardRecipes": [],
+    "rewardFunction": "No function",
+    "rewardXP": 10,
+    "achievementType": "challenge",
+    "parent": {
+      "value": "CUSTOM:OhRuby"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"block_placed\" x=\"32\" y=\"12\"><value name=\"block\"><block type=\"mcitem_allblocks\"><field name=\"value\">CUSTOM:RubinBlock</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

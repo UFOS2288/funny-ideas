@@ -49,6 +49,8 @@ public class Funnyideas1ModElements {
 	public Funnyideas1ModElements() {
 		sounds.put(new ResourceLocation("funnyideas1", "videoplayback"),
 				new net.minecraft.util.SoundEvent(new ResourceLocation("funnyideas1", "videoplayback")));
+		sounds.put(new ResourceLocation("funnyideas1", "sssss"), new net.minecraft.util.SoundEvent(new ResourceLocation("funnyideas1", "sssss")));
+		sounds.put(new ResourceLocation("funnyideas1", "healing"), new net.minecraft.util.SoundEvent(new ResourceLocation("funnyideas1", "healing")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("funnyideas1").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

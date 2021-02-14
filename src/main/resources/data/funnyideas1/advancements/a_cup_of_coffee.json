@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "funnyideas1:cup_with_coffee"
+    },
+    "title": {
+      "translate": "advancements.a_cup_of_coffee.title"
+    },
+    "description": {
+      "translate": "advancements.a_cup_of_coffee.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "a_cup_of_coffee": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "item": "funnyideas1:cup_with_coffee"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "funnyideas1:hot_coffee"
+}

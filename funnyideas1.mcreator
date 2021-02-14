@@ -504,35 +504,6 @@
       "registry_name": "cache_item"
     },
     {
-      "name": "CacheNaBlokieNazhataPravaiaKnopkaMyshi",
-      "type": "procedure",
-      "sortid": 67,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "cache_na_blokie_nazhata_pravaia_knopka_myshi",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "Cache",
       "type": "block",
       "sortid": 67,
@@ -765,6 +736,893 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "suit_4"
+    },
+    {
+      "name": "ButchersKnifeKoghdaNazhataPKMPoBloku",
+      "type": "procedure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "butchers_knife_koghda_nazhata_pkm_po_bloku",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ButchersKnife",
+      "type": "item",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "butchers_knife"
+    },
+    {
+      "name": "ButchersKnifeRecipe",
+      "type": "recipe",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "butchers_knife_recipe"
+    },
+    {
+      "name": "ACupOfCoffee",
+      "type": "achievement",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "a_cup_of_coffee"
+    },
+    {
+      "name": "CupA",
+      "type": "achievement",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cup_a"
+    },
+    {
+      "name": "First",
+      "type": "achievement",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "first"
+    },
+    {
+      "name": "CreateAPot",
+      "type": "achievement",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "create_a_pot"
+    },
+    {
+      "name": "HotCoffee",
+      "type": "achievement",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "hot_coffee"
+    },
+    {
+      "name": "StartSweetheart",
+      "type": "achievement",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "start_sweetheart"
+    },
+    {
+      "name": "CandyMake",
+      "type": "achievement",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "candy_make"
+    },
+    {
+      "name": "BitterSmell",
+      "type": "achievement",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bitter_smell"
+    },
+    {
+      "name": "YouAreAKing",
+      "type": "achievement",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "you_are_a_king"
+    },
+    {
+      "name": "OhRuby",
+      "type": "achievement",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "oh_ruby"
+    },
+    {
+      "name": "OnStyle",
+      "type": "achievement",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "on_style"
+    },
+    {
+      "name": "Butcher",
+      "type": "achievement",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "butcher"
+    },
+    {
+      "name": "RichPinocchio",
+      "type": "achievement",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rich_pinocchio"
+    },
+    {
+      "name": "HappyMorning",
+      "type": "achievement",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "happy_morning"
+    },
+    {
+      "name": "UghHowSaltyItIs",
+      "type": "achievement",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ugh_how_salty_it_is"
+    },
+    {
+      "name": "MmmYummy",
+      "type": "achievement",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "mmm_yummy"
+    },
+    {
+      "name": "AlcoholSause",
+      "type": "achievement",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "alcohol_sause"
+    },
+    {
+      "name": "SuperTastySteak",
+      "type": "achievement",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "super_tasty_steak"
+    },
+    {
+      "name": "ThisDiamondsInMy",
+      "type": "achievement",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "this_diamonds_in_my"
+    },
+    {
+      "name": "ThisRingIsBeautiful",
+      "type": "achievement",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "this_ring_is_beautiful"
+    },
+    {
+      "name": "Chainssssss",
+      "type": "achievement",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "chainssssss"
+    },
+    {
+      "name": "MedievalTrick",
+      "type": "achievement",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "medieval_trick"
+    },
+    {
+      "name": "HumanMeat",
+      "type": "achievement",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "human_meat"
+    },
+    {
+      "name": "GiveItBack",
+      "type": "achievement",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "give_it_back"
+    },
+    {
+      "name": "YouAreIdiot",
+      "type": "achievement",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "you_are_idiot"
+    },
+    {
+      "name": "SecretBlockNaBlokieNazhataPravaiaKnopkaMyshi",
+      "type": "procedure",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "secret_block_na_blokie_nazhata_pravaia_knopka_myshi",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SecretBlock",
+      "type": "block",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "secret_block"
+    },
+    {
+      "name": "CacheGUUUI",
+      "type": "gui",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "cache_guuui"
+    },
+    {
+      "name": "EmeraldCoin",
+      "type": "item",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_coin"
+    },
+    {
+      "name": "DiamondCoin",
+      "type": "item",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_coin"
+    },
+    {
+      "name": "RubyCoin",
+      "type": "item",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_coin"
+    },
+    {
+      "name": "IronCoin",
+      "type": "item",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_coin"
+    },
+    {
+      "name": "IronCoinRecipe",
+      "type": "recipe",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_coin_recipe"
+    },
+    {
+      "name": "RubyCoinRecipe",
+      "type": "recipe",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_coin_recipe"
+    },
+    {
+      "name": "DiamondCoinRecipe",
+      "type": "recipe",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_coin_recipe"
+    },
+    {
+      "name": "EmeraldCoinRecipe",
+      "type": "recipe",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "emerald_coin_recipe"
+    },
+    {
+      "name": "DiamondRecipe",
+      "type": "recipe",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "diamond_recipe"
+    },
+    {
+      "name": "RubyRecipe",
+      "type": "recipe",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ruby_recipe"
+    },
+    {
+      "name": "IronRecipe",
+      "type": "recipe",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_recipe"
+    },
+    {
+      "name": "AfkGUI",
+      "type": "gui",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "afk_gui"
+    },
+    {
+      "name": "AfTrading",
+      "type": "block",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "af_trading"
+    },
+    {
+      "name": "AfkTradingRecipe",
+      "type": "recipe",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "afk_trading_recipe"
+    },
+    {
+      "name": "Passport",
+      "type": "item",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "passport"
+    },
+    {
+      "name": "PassportGui",
+      "type": "gui",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "passport_gui"
+    },
+    {
+      "name": "PalmWood",
+      "type": "block",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palm_wood"
+    },
+    {
+      "name": "PalmLog",
+      "type": "block",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palm_log"
+    },
+    {
+      "name": "PalmPlanks",
+      "type": "block",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palm_planks"
+    },
+    {
+      "name": "PalmLeaves",
+      "type": "block",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palm_leaves"
+    },
+    {
+      "name": "PalmStairs",
+      "type": "block",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palm_stairs"
+    },
+    {
+      "name": "PalmSlab",
+      "type": "block",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palm_slab"
+    },
+    {
+      "name": "PalmFence",
+      "type": "block",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palm_fence"
+    },
+    {
+      "name": "PalmFenceGate",
+      "type": "block",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palm_fence_gate"
+    },
+    {
+      "name": "PalmItemsTag",
+      "type": "tag",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palm_items_tag"
+    },
+    {
+      "name": "PalmWoodRecipe",
+      "type": "recipe",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palm_wood_recipe"
+    },
+    {
+      "name": "PalmPlanksRecipe",
+      "type": "recipe",
+      "sortid": 146,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palm_planks_recipe"
+    },
+    {
+      "name": "PalmStairsRecipe",
+      "type": "recipe",
+      "sortid": 147,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palm_stairs_recipe"
+    },
+    {
+      "name": "PalmSlabRecipe",
+      "type": "recipe",
+      "sortid": 148,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palm_slab_recipe"
+    },
+    {
+      "name": "PalmFenceRecipe",
+      "type": "recipe",
+      "sortid": 149,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palm_fence_recipe"
+    },
+    {
+      "name": "PalmFenceGateRecipe",
+      "type": "recipe",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palm_fence_gate_recipe"
+    },
+    {
+      "name": "PalmStickRecipe",
+      "type": "recipe",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "palm_stick_recipe"
+    },
+    {
+      "name": "WrechedPalmPlanks",
+      "type": "block",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wreched_palm_planks"
+    },
+    {
+      "name": "WreckedPlamPlanksRecipe",
+      "type": "recipe",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wrecked_plam_planks_recipe"
+    },
+    {
+      "name": "WrechedPalmPlanksKoghdaSushchnostKhoditPoBloku",
+      "type": "procedure",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wreched_palm_planks_koghda_sushchnost_khodit_po_bloku",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SaltDust",
+      "type": "item",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "salt_dust"
+    },
+    {
+      "name": "SaltOre",
+      "type": "block",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "salt_ore"
+    },
+    {
+      "name": "SaltBlock",
+      "type": "block",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "salt_block"
+    },
+    {
+      "name": "SaltOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "salt_ore_block_recipe"
+    },
+    {
+      "name": "SaltBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "salt_block_ore_recipe"
+    },
+    {
+      "name": "SaltOreSmelting",
+      "type": "recipe",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "salt_ore_smelting"
+    },
+    {
+      "name": "SaltGunKoghdaPuliaPopadaietVBlok",
+      "type": "procedure",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "salt_gun_koghda_pulia_popadaiet_v_blok",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SaltGun",
+      "type": "gun",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "salt_gun"
+    },
+    {
+      "name": "SaltGunRecipe",
+      "type": "recipe",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "salt_gun_recipe"
+    },
+    {
+      "name": "SaltKoghdaSushchnostKhoditPoBloku",
+      "type": "procedure",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "salt_koghda_sushchnost_khodit_po_bloku",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Salt",
+      "type": "block",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "salt"
+    },
+    {
+      "name": "SaltRecipe",
+      "type": "recipe",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "salt_recipe"
+    },
+    {
+      "name": "BandageKoghdaIedaSiediena",
+      "type": "procedure",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bandage_koghda_ieda_siediena",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bandage",
+      "type": "food",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bandage"
+    },
+    {
+      "name": "MedkitKoghdaIedaSiediena",
+      "type": "procedure",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "medkit_koghda_ieda_siediena",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Asd",
+      "type": "procedure",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "asd",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MedKitt",
+      "type": "food",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "med_kitt"
     }
   ],
   "variable_elements": [],
@@ -776,213 +1634,381 @@
       ],
       "category": "record",
       "subtitle": ""
+    },
+    {
+      "name": "sssss",
+      "files": [
+        "record_online-voice-recorder.com"
+      ],
+      "category": "master",
+      "subtitle": ""
+    },
+    {
+      "name": "healing",
+      "files": [
+        "e195b149a44ecb9"
+      ],
+      "category": "player",
+      "subtitle": ""
     }
   ],
   "language_map": {
     "ru_ru": {
+      "advancements.happy_morning.descr": "Сделайте омлет!",
+      "item.funnyideas1.passport": "Passport",
       "item.ufosideas.rubin_sword": "Рубиновый меч",
+      "advancements.butcher.title": "Нам надо быть поокуранее с этой штукой!",
       "item.funnyideas.apple_candy": "Яблочная конфета",
       "item.funnyideas1.beet_sause": "Свекольный соус",
+      "advancements.on_style.title": "На стиле!",
+      "advancements.rich_pinocchio.descr": "Поставте блок рубина.",
+      "block.funnyideas1.salt": "Salt",
       "item.funnyideas1.crown_boots": "Crown Ботинки",
+      "advancements.super_tasty_steak.descr": "Сделайте супер стейк.",
       "block.funnyideas1.rubin_ore": "Рубиновая руда",
       "item.funnyideas.rubin_armor_chestplate": "Рубиновый нагрудник",
       "block.funnyideas1.cache": "Схрон",
-      "item.funnyideas1.rotten_flash_candy": "Конфета со вкусом Гнилой плоти",
       "item.ufosideas.wrapper": "Фантик",
+      "item.funnyideas1.rotten_flash_candy": "Конфета со вкусом Гнилой плоти",
       "block.funnyideas.rubin_block": "Block of Rubin",
       "block.funnyideas1.coffee": "Кофе",
       "item.funnyideas1.so_path_up.desc": "Kool and the Gang - Fresh 1985",
-      "item.funnyideas1.suit_boots": "Shoes ",
+      "item.funnyideas1.suit_boots": "Туфли",
+      "advancements.this_diamonds_in_my.descr": "Сделайте тайник!",
       "item.funnyideas.rubin_armor_boots": "Rubin Boots",
       "item.funnyideas1.wrapper": "Фантик",
+      "advancements.this_ring_is_beautiful.title": "Это кольцо такое красивое!",
+      "advancements.chainssssss.descr": "Сделайте Сетку из колец!",
       "item.funnyideas.rubin_shovel": "Rubin Shovel",
+      "block.funnyideas1.palm_fence_gate": "Palm Fence Gate",
+      "advancements.oh_ruby.descr": "Найдите рубин!",
+      "advancements.hot_coffee.title": "Горячий кофеёк!",
       "block.ufosideas.rubin_ore": "Рубиновая руда",
+      "advancements.first.descr": "Начните игру с Funny ideas mod!",
+      "advancements.create_a_pot.title": "Готов к кофе!",
       "block.funnyideas1.rubin_block": "Блок Рубина",
       "item.funnyideas.omlette": "Omelette",
       "item.funnyideas.candy": "Candy",
       "item.ufosideas.cup": "Чашка",
       "item.funnyideas1.cup_with_coffee": "Кружка с кофе",
       "item.funnyideas.rubin_armor_leggings": "Rubin Leggings",
+      "advancements.medieval_trick.descr": "Сделайте кольчугу!",
+      "advancements.mmm_yummy.descr": "Сделайте супер кролика!",
       "item.funnyideas1.chain": "Сетка из колец",
-      "item.funnyideas1.rubins_armor_chestplate": "Rubins Chestplate",
+      "item.funnyideas1.rubins_armor_chestplate": "Рубиновый нагрудник",
+      "block.funnyideas1.palm_wood": "Palm Wood",
       "item.funnyideas.caramel": "Caramel",
       "item.ufosideas.beet_sause": "Свекольный соус",
       "item.ufosideas.omlette": "Омлет",
       "item.funnyideas1.crown_chestplate": "Crown Кираса",
+      "advancements.medieval_trick.title": "Средневековая хитрость!",
       "item.ufosideas.rubin_axe": "Рубиновый топор",
       "item.ufosideas.rotten_flash_candy": "Конфета из гнилой плоти",
       "item.funnyideas1.pot": "Чайник",
+      "advancements.ugh_how_salty_it_is.descr": "Сделайте соевый соус!",
       "item.ufosideas.rubin_armor_chestplate": "Рубиновый нагрудник",
       "item.funnyideas.so_path_up": "So Path UP!",
       "item.ufosideas.caramel": "Карамель",
       "item.funnyideas1.pot_with_coffee": "Чайник с кофе",
+      "block.funnyideas1.salt_ore": "Salt Ore",
+      "advancements.give_it_back.descr": "Я хотел сказать отдай пожалуйста свой нагрудник.",
+      "advancements.alcohol_sause.title": "Соус с алкоголем!",
       "item.funnyideas.rabbit_with_honey_and_soy_sauce": "Rabbit With Honey And Soy Sauce",
+      "advancements.you_are_a_king.descr": "Сделайте корону!",
       "item.funnyideas.pot": "Pot",
+      "advancements.give_it_back.title": "ОТДАЙ МНЕ, ЖИВО!",
       "item.funnyideas.rubin_pickaxe": "Rubin Pickaxe",
+      "item.funnyideas1.med_kitt": "Med Kit",
+      "advancements.start_sweetheart.title": "Старт, Сладкоежка!",
+      "item.funnyideas1.diamond_coin": "Алмазная монета",
+      "block.funnyideas1.palm_planks": "Palm Planks",
+      "advancements.cup_a.title": "Кружка для горячих напитков!",
       "item.funnyideas.rubin_armor_helmet": "Rubin Helmet",
       "item.funnyideas1.crown_helmet": "Корона",
       "subtitles.videoplayback": "",
-      "item.funnyideas1.rubins_armor_leggings": "Rubins Leggings",
+      "advancements.hot_coffee.descr": "Сварите кофе!",
+      "item.funnyideas1.rubins_armor_leggings": "Рубиновые поножи",
       "item.ufosideas.candy": "Конфетка",
+      "advancements.ugh_how_salty_it_is.title": "Уф, Ну он и солёный!",
+      "block.funnyideas1.salt_block": "Block of Salt",
+      "block.funnyideas1.secret_block": "ХЕЙАЙАЙАЙААЙААЙААЙАЙАЙЙАЙ",
       "item.funnyideas.cup_with_coffee": "Cup With Coffee",
+      "block.funnyideas1.palm_leaves": "Palm Leaves",
       "item.funnyideas1.cup": "Кружка",
-      "block.funnyideas.coffee": "Coffee",
+      "advancements.a_cup_of_coffee.descr": "Выпейте кружку с кофе!",
+      "item.funnyideas1.salt_dust": "Salt",
+      "block.funnyideas.coffee": "Кофе",
       "item.funnyideas1.boiling_water": "Кипящая вода",
       "item.ufosideas.cup_with_coffee": "Чашка с кофе",
       "item.funnyideas.cup": "Cup",
       "item.funnyideas.rubin_hoe": "Rubin Hoe",
-      "item.ufosideas.rubin_armor_leggings": "РУбиновые поножи",
+      "advancements.mmm_yummy.title": "Ммм, Вкусно!",
+      "advancements.this_ring_is_beautiful.descr": "Сделайте кольцо.",
+      "item.ufosideas.rubin_armor_leggings": "Рубиновые поножи",
+      "advancements.first.title": "Смешные идеи!",
       "item.funnyideas.rotten_flash_candy": "Конфета с гнилой плотью",
       "item.funnyideas1.crown_leggings": "Crown Поножи",
+      "advancements.a_cup_of_coffee.title": "Кружку с кофе, Сэр?",
+      "advancements.rich_pinocchio.title": "Богатый буратино!",
+      "advancements.on_style.descr": "Сделайте костюм!",
+      "advancements.happy_morning.title": "Счасливое утро!",
+      "advancements.create_a_pot.descr": "Сделайте чайник!",
+      "advancements.butcher.descr": "Сделайте нож мясника",
       "item.ufosideas.so_path_up.desc": "Kool and the Gang - Fresh 1985",
       "item.funnyideas1.rubin": "Рубин",
       "item.funnyideas.boiling_water": "Кипящая вода",
       "item.funnyideas.rubin_sword": "Рубиновый меч",
+      "advancements.start_sweetheart.descr": "Сделайте карамель!",
       "item.ufosideas.apple_candy": "Яблочная конфета",
-      "item.funnyideas1.rubins_armor_helmet": "Rubins Helmet",
+      "item.funnyideas1.rubins_armor_helmet": "Рубиновый шлем",
       "item.ufosideas.so_path_up": "So Path UP!",
+      "item.funnyideas1.bandage": "Bandage",
       "item.ufosideas.rubin_hoe": "Рубиновая мотыга",
+      "item.funnyideas1.iron_coin": "Железная монета",
+      "block.funnyideas1.palm_fence": "Palm Fence",
       "item.funnyideas1.steak_with_beet_sause": "Стейк со свекольным соусом",
+      "block.funnyideas1.palm_log": "Palm Log",
+      "subtitles.healing": "",
       "item.funnyideas1.ring": "Кольцо",
+      "advancements.you_are_idiot.descr": "Прости, я хотел сказать почему ты выпил эту воду?",
+      "block.funnyideas1.af_trading": "Афк Торговец",
+      "advancements.super_tasty_steak.title": "Супер вкусный стейк!",
       "item.ufosideas.rubin_armor_helmet": "Рубиновый шлем",
       "block.funnyideas.rubin_ore": "Rubin Ore",
       "item.funnyideas.rubin_axe": "Rubin Axe",
       "item.funnyideas.wrapper": "Wrapper",
       "item.funnyideas.soy_sause": "Soy Sause",
+      "advancements.alcohol_sause.descr": "Сделайте свекольный соус!",
       "item.funnyideas1.omlette": "Омлет",
+      "advancements.cup_a.descr": "Сделайте кружку!",
+      "advancements.human_meat.title": "ЭТО ЧЕЛОВЕЧИНА!",
+      "item.funnyideas1.emerald_coin": "Изумрудная монета",
       "item.funnyideas.steak_with_beet_sause": "Steak With Beet Sause",
-      "item.funnyideas1.suit_chestplate": "Suit",
+      "item.funnyideas1.suit_chestplate": "Пиджак",
+      "subtitles.sssss": "",
       "item.funnyideas.beet_sause": "Beet Sause",
       "item.ufosideas.soy_sause": "Соевый соус",
-      "item.funnyideas1.suit_helmet": "Sunglasses",
+      "item.funnyideas1.suit_helmet": "Солнечные очки",
       "item.ufosideas.rubin_armor_boots": "Рубиновые ботнки",
-      "item.funnyideas1.suit_leggings": "trousers",
+      "item.funnyideas1.suit_leggings": "Брюки",
       "item.ufosideas.rubin_shovel": "Рубиновая лопата",
       "itemGroup.tabufos_ideas_tab": "Funny Ideas",
       "item.funnyideas1.so_path_up": "So Path UP!",
+      "advancements.bitter_smell.descr": "Соберите кофе!",
       "item.funnyideas1.rabbit_with_honey_and_soy_sauce": "Кролик с мёдом и соевым соусом",
       "item.funnyideas.so_path_up.desc": "Kool and the Gang - Fresh 1985",
       "item.funnyideas1.caramel": "Карамель",
       "item.funnyideas.rubin_ingot": "Rubin",
       "item.funnyideas1.soy_sause": "Соевый соус",
       "item.funnyideas1.flesh": "Плоть",
+      "advancements.candy_make.descr": "Сделайте конфету",
+      "block.funnyideas1.palm_slab": "Palm Slab",
+      "advancements.you_are_idiot.title": "Ты идиот?",
+      "advancements.you_are_a_king.title": "Ты король!",
       "item.ufosideas.pot": "Чайник",
+      "item.funnyideas1.ruby_coin": "Рубиновая монета",
+      "advancements.bitter_smell.title": "Горький запашок!",
       "block.ufosideas.coffee": "Кофе",
       "item.ufosideas.boiling_water": "Кипящая вода",
+      "advancements.candy_make.title": "Праздник Сластены!",
       "block.ufosideas.rubin_block": "Блок рубина",
       "item.funnyideas1.apple_candy": "Яблочная конфета",
+      "block.funnyideas1.wreched_palm_planks": "Wreched Palm Planks",
       "item.ufosideas.pot_with_coffee": "Чайник с кофе",
       "item.ufosideas.rubin_pickaxe": "Рубиновая кирка",
       "item.ufosideas.rabbit_with_honey_and_soy_sauce": "Кролик с мёдом и соевым соусом",
       "item.ufosideas.steak_with_beet_sause": "Стейк с свекольным соусом",
+      "advancements.chainssssss.title": "Сетки из колец!",
       "item.funnyideas1.candy": "Конфетка",
+      "item.funnyideas1.butchers_knife": "Нож мясника",
+      "advancements.this_diamonds_in_my.title": "ЭТО МОИ АЛМАЗЫ!",
       "item.ufosideas.rubin_ingot": "Рубиновый слиток",
-      "item.funnyideas1.rubins_armor_boots": "Rubins Boots",
+      "item.funnyideas1.salt_gun": "Salt Gun",
+      "item.funnyideas1.rubins_armor_boots": "Рубиновые ботинки",
       "item.funnyideas.pot_with_coffee": "Pot With Coffee",
       "item.funnyideas1.cache_item": "Сумочка",
+      "advancements.oh_ruby.title": "О, Рубин!",
+      "advancements.human_meat.descr": "Получите плоть!",
+      "block.funnyideas1.palm_stairs": "Palm Stairs",
       "item.funnyideas1.cocerel_on_stick": "Петушок на палочке"
     },
     "en_us": {
+      "advancements.happy_morning.descr": "Make a omelette!",
+      "item.funnyideas1.passport": "Passport",
       "item.ufosideas.rubin_sword": "Rubin Sword",
+      "advancements.butcher.title": "We should be more careful with this thing! ",
       "item.funnyideas.apple_candy": "Apple Candy",
       "item.funnyideas1.beet_sause": "Beet Sause",
+      "advancements.on_style.title": "On Style!",
+      "advancements.rich_pinocchio.descr": "Place a Block Of Ruby!",
+      "block.funnyideas1.salt": "Salt",
       "item.funnyideas1.crown_boots": "Crown Ботинки",
-      "block.funnyideas1.rubin_ore": "Rubin Ore",
+      "advancements.super_tasty_steak.descr": "Make a Super Steak!",
       "item.funnyideas.rubin_armor_chestplate": "Rubin Chestplate",
+      "block.funnyideas1.rubin_ore": "Ruby Ore",
       "block.funnyideas1.cache": "Cache",
-      "item.funnyideas1.rotten_flash_candy": "Rotten Flash Candy",
       "item.ufosideas.wrapper": "Wrapper",
+      "item.funnyideas1.rotten_flash_candy": "Rotten Flash Candy",
       "block.funnyideas.rubin_block": "Block of Rubin",
-      "block.funnyideas1.coffee": "Coffee",
-      "item.funnyideas1.so_path_up.desc": "Kool and the Gang - Fresh 1985",
       "item.funnyideas1.suit_boots": "Shoes ",
+      "item.funnyideas1.so_path_up.desc": "Kool and the Gang - Fresh 1985",
+      "block.funnyideas1.coffee": "Coffee",
+      "advancements.this_diamonds_in_my.descr": "Make a Cache!",
       "item.funnyideas.rubin_armor_boots": "Rubin Boots",
       "item.funnyideas1.wrapper": "Wrapper",
+      "advancements.this_ring_is_beautiful.title": "This Ring Is Beautiful!",
+      "advancements.chainssssss.descr": "Make a chain!",
       "item.funnyideas.rubin_shovel": "Rubin Shovel",
+      "block.funnyideas1.palm_fence_gate": "Palm Fence Gate",
+      "advancements.oh_ruby.descr": "Find a ruby!",
+      "advancements.hot_coffee.title": "Hot Coffee!",
       "block.ufosideas.rubin_ore": "Rubin Ore",
-      "block.funnyideas1.rubin_block": "Block of Rubin",
+      "advancements.first.descr": "Start the game with Funny Ideas mod!",
+      "advancements.create_a_pot.title": "Ready for coffee!",
+      "block.funnyideas1.rubin_block": "Block of Ruby",
       "item.funnyideas.omlette": "Omelette",
       "item.funnyideas.candy": "Candy",
       "item.ufosideas.cup": "Cup",
       "item.funnyideas1.cup_with_coffee": "Cup With Coffee",
       "item.funnyideas.rubin_armor_leggings": "Rubin Leggings",
+      "advancements.medieval_trick.descr": "Make a chainmail chestplate!",
+      "advancements.mmm_yummy.descr": "Make a Super Rabbit!",
       "item.funnyideas1.chain": "Chain",
-      "item.funnyideas1.rubins_armor_chestplate": "Rubins Chestplate",
+      "item.funnyideas1.rubins_armor_chestplate": "Ruby Chestplate",
+      "block.funnyideas1.palm_wood": "Palm Wood",
       "item.funnyideas.caramel": "Caramel",
-      "item.ufosideas.omlette": "Omelette",
       "item.ufosideas.beet_sause": "Beet Sause",
+      "item.ufosideas.omlette": "Omelette",
       "item.funnyideas1.crown_chestplate": "Crown Кираса",
+      "advancements.medieval_trick.title": "Medieval trick!",
       "item.ufosideas.rubin_axe": "Rubin Axe",
       "item.ufosideas.rotten_flash_candy": "Rotten Flash Candy",
       "item.funnyideas1.pot": "Pot",
+      "advancements.ugh_how_salty_it_is.descr": "Make a Soy sause!",
       "item.ufosideas.rubin_armor_chestplate": "Rubin Chestplate",
       "item.funnyideas.so_path_up": "So Path UP!",
       "item.ufosideas.caramel": "Caramel",
       "item.funnyideas1.pot_with_coffee": "Pot With Coffee",
+      "block.funnyideas1.salt_ore": "Salt Ore",
+      "advancements.give_it_back.descr": "I wanted to say please give me your chestplate!",
+      "advancements.alcohol_sause.title": "Alcohol Sause!",
       "item.funnyideas.rabbit_with_honey_and_soy_sauce": "Rabbit With Honey And Soy Sauce",
+      "advancements.you_are_a_king.descr": "Make a crown!",
       "item.funnyideas.pot": "Pot",
+      "advancements.give_it_back.title": "GIVE IT BACK, LIVELY!",
       "item.funnyideas.rubin_pickaxe": "Rubin Pickaxe",
+      "item.funnyideas1.med_kitt": "Med Kit",
+      "advancements.start_sweetheart.title": "Start Sweetheart!",
+      "item.funnyideas1.diamond_coin": "Diamond Coin",
+      "block.funnyideas1.palm_planks": "Palm Planks",
+      "advancements.cup_a.title": "Cup for hot drinks!",
       "item.funnyideas.rubin_armor_helmet": "Rubin Helmet",
-      "item.funnyideas1.crown_helmet": "Crown",
       "subtitles.videoplayback": "",
-      "item.funnyideas1.rubins_armor_leggings": "Rubins Leggings",
+      "item.funnyideas1.crown_helmet": "Crown",
+      "advancements.hot_coffee.descr": "Brew coffee!",
+      "item.funnyideas1.rubins_armor_leggings": "Ruby Leggings",
       "item.ufosideas.candy": "Candy",
+      "advancements.ugh_how_salty_it_is.title": "Ugh, how salty it is!",
+      "block.funnyideas1.salt_block": "Block of Salt",
+      "block.funnyideas1.secret_block": "HEYAYAYAYAYAYAYAYAYAYYAYA",
       "item.funnyideas.cup_with_coffee": "Cup With Coffee",
+      "block.funnyideas1.palm_leaves": "Palm Leaves",
       "item.funnyideas1.cup": "Cup",
+      "advancements.a_cup_of_coffee.descr": "Drink a Cup of cofee!",
+      "item.funnyideas1.salt_dust": "Salt",
       "block.funnyideas.coffee": "Coffee",
       "item.funnyideas1.boiling_water": "Boiling Water",
       "item.ufosideas.cup_with_coffee": "Cup With Coffee",
       "item.funnyideas.cup": "Cup",
       "item.funnyideas.rubin_hoe": "Rubin Hoe",
+      "advancements.mmm_yummy.title": "Mmm, Yummy!",
+      "advancements.this_ring_is_beautiful.descr": "Make a Ring!",
       "item.ufosideas.rubin_armor_leggings": "Rubin Leggings",
+      "advancements.first.title": "Funny Ideas",
       "item.funnyideas.rotten_flash_candy": "Rotten Flash Candy",
       "item.funnyideas1.crown_leggings": "Crown Поножи",
+      "advancements.a_cup_of_coffee.title": "A Cup Of Coffee?",
+      "advancements.rich_pinocchio.title": "Rich Pinocchio!",
+      "advancements.on_style.descr": "Make a suit!",
+      "advancements.happy_morning.title": "Happy Morning!",
+      "advancements.create_a_pot.descr": "Create a pot!",
+      "advancements.butcher.descr": "Make a Butcher knife!",
       "item.ufosideas.so_path_up.desc": "Kool and the Gang - Fresh 1985",
-      "item.funnyideas1.rubin": "Rubin",
+      "item.funnyideas1.rubin": "Ruby",
       "item.funnyideas.boiling_water": "Boiling Water",
       "item.funnyideas.rubin_sword": "Rubin Sword",
+      "advancements.start_sweetheart.descr": "Make a Caramel!",
       "item.ufosideas.apple_candy": "Apple Candy",
-      "item.funnyideas1.rubins_armor_helmet": "Rubins Helmet",
+      "item.funnyideas1.rubins_armor_helmet": "Ruby Helmet",
       "item.ufosideas.so_path_up": "So Path UP!",
+      "item.funnyideas1.bandage": "Bandage",
       "item.ufosideas.rubin_hoe": "Rubin Hoe",
+      "item.funnyideas1.iron_coin": "Iron Coin",
+      "block.funnyideas1.palm_fence": "Palm Fence",
       "item.funnyideas1.steak_with_beet_sause": "Steak With Beet Sause",
+      "block.funnyideas1.palm_log": "Palm Log",
+      "subtitles.healing": "",
       "item.funnyideas1.ring": "Ring",
+      "advancements.you_are_idiot.descr": "Sorry, i wanted to say Why you drink this water?",
+      "block.funnyideas1.af_trading": "Afk Trader",
+      "advancements.super_tasty_steak.title": "Super Tasty Steak!",
       "item.ufosideas.rubin_armor_helmet": "Rubin Helmet",
       "block.funnyideas.rubin_ore": "Rubin Ore",
       "item.funnyideas.rubin_axe": "Rubin Axe",
       "item.funnyideas.wrapper": "Wrapper",
       "item.funnyideas.soy_sause": "Soy Sause",
+      "advancements.alcohol_sause.descr": "Make a Beet sause!",
       "item.funnyideas1.omlette": "Omelette",
+      "advancements.cup_a.descr": "Create a cup!",
+      "advancements.human_meat.title": "THIS IS HUMAN MEAT !",
+      "item.funnyideas1.emerald_coin": "Emerald Coin",
       "item.funnyideas.steak_with_beet_sause": "Steak With Beet Sause",
       "item.funnyideas1.suit_chestplate": "Suit",
+      "subtitles.sssss": "",
       "item.funnyideas.beet_sause": "Beet Sause",
       "item.ufosideas.soy_sause": "Soy Sause",
       "item.funnyideas1.suit_helmet": "Sunglasses",
       "item.ufosideas.rubin_armor_boots": "Rubin Boots",
-      "item.funnyideas1.suit_leggings": "trousers",
+      "item.funnyideas1.suit_leggings": "Trousers",
       "item.ufosideas.rubin_shovel": "Rubin Shovel",
       "itemGroup.tabufos_ideas_tab": "Funny Ideas",
       "item.funnyideas1.so_path_up": "So Path UP!",
+      "advancements.bitter_smell.descr": "Collect a coffee!",
       "item.funnyideas1.rabbit_with_honey_and_soy_sauce": "Rabbit With Honey And Soy Sauce",
       "item.funnyideas.so_path_up.desc": "Kool and the Gang - Fresh 1985",
       "item.funnyideas1.caramel": "Caramel",
       "item.funnyideas.rubin_ingot": "Rubin",
       "item.funnyideas1.soy_sause": "Soy Sause",
       "item.funnyideas1.flesh": "Flesh",
+      "advancements.candy_make.descr": "Make a Candy",
+      "block.funnyideas1.palm_slab": "Palm Slab",
+      "advancements.you_are_idiot.title": "You Are Idiot?",
+      "advancements.you_are_a_king.title": "You Are A King!",
       "item.ufosideas.pot": "Pot",
+      "item.funnyideas1.ruby_coin": "Ruby Coin",
+      "advancements.bitter_smell.title": "Bitter Smell!",
       "block.ufosideas.coffee": "Coffee",
       "item.ufosideas.boiling_water": "Boiling Water",
+      "advancements.candy_make.title": "Celebration Sweetheart!",
       "block.ufosideas.rubin_block": "Block of Rubin",
       "item.funnyideas1.apple_candy": "Apple Candy",
+      "block.funnyideas1.wreched_palm_planks": "Wreched Palm Planks",
       "item.ufosideas.pot_with_coffee": "Pot With Coffee",
       "item.ufosideas.rubin_pickaxe": "Rubin Pickaxe",
       "item.ufosideas.steak_with_beet_sause": "Steak With Beet Sause",
       "item.ufosideas.rabbit_with_honey_and_soy_sauce": "Rabbit With Honey And Soy Sauce",
+      "advancements.chainssssss.title": "Chains!",
       "item.funnyideas1.candy": "Candy",
+      "item.funnyideas1.butchers_knife": "Butcher Knife",
+      "advancements.this_diamonds_in_my.title": "This Diamonds In My!",
       "item.ufosideas.rubin_ingot": "Rubin",
-      "item.funnyideas1.rubins_armor_boots": "Rubins Boots",
+      "item.funnyideas1.salt_gun": "Salt Gun",
+      "item.funnyideas1.rubins_armor_boots": "Ruby Boots",
       "item.funnyideas.pot_with_coffee": "Pot With Coffee",
       "item.funnyideas1.cache_item": "Hand Bag",
+      "advancements.oh_ruby.title": "Oh, Ruby!",
+      "advancements.human_meat.descr": "Recieve a flesh!",
+      "block.funnyideas1.palm_stairs": "Palm Stairs",
       "item.funnyideas1.cocerel_on_stick": "Cocerel on stick"
     }
   },

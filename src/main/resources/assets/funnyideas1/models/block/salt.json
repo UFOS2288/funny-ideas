@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "funnyideas1:blocks/salt",
+    "particle": "funnyideas1:blocks/salt"
+  }
+}

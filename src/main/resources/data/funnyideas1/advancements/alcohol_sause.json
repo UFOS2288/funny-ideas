@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "funnyideas1:beet_sause"
+    },
+    "title": {
+      "translate": "advancements.alcohol_sause.title"
+    },
+    "description": {
+      "translate": "advancements.alcohol_sause.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "alcohol_sause": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "funnyideas1:beet_sause",
+            "count": {
+              "min": 1,
+              "max": 100
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "funnyideas1:first"
+}

@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "funnyideas1:cache"
+    },
+    "title": {
+      "translate": "advancements.this_diamonds_in_my.title"
+    },
+    "description": {
+      "translate": "advancements.this_diamonds_in_my.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "this_diamonds_in_my": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "item": "funnyideas1:cache"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "funnyideas1:first"
+}

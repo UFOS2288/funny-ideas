@@ -1,0 +1,16 @@
+{
+  "group": "funnyideas1",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "funnyideas1:ruby_coin"
+    }
+  },
+  "result": {
+    "item": "funnyideas1:iron_coin",
+    "count": 4
+  }
+}

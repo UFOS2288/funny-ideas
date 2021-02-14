@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "funnyideas1:rubin_block"
+    },
+    "title": {
+      "translate": "advancements.rich_pinocchio.title"
+    },
+    "description": {
+      "translate": "advancements.rich_pinocchio.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "rich_pinocchio": {
+      "trigger": "minecraft:placed_block",
+      "conditions": {
+        "item": {
+          "item": "funnyideas1:rubin_block"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "funnyideas1:oh_ruby"
+}

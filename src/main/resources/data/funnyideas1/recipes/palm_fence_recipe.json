@@ -1,0 +1,32 @@
+{
+  "group": "funnyideas1",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "funnyideas1:palm_planks"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "funnyideas1:palm_planks"
+    },
+    "3": {
+      "item": "funnyideas1:palm_planks"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "funnyideas1:palm_planks"
+    }
+  },
+  "result": {
+    "item": "funnyideas1:palm_fence",
+    "count": 3
+  }
+}

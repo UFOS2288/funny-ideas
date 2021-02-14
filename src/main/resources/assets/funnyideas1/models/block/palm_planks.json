@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "funnyideas1:blocks/palm_planks",
+    "particle": "funnyideas1:blocks/palm_planks"
+  }
+}

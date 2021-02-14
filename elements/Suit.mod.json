@@ -11,12 +11,12 @@
     "enableBoots": true,
     "textureBoots": "suit4",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:UFOSIdeasTab"
     },
     "armorTextureFile": "suit_",
     "helmetName": "Sunglasses",
     "bodyName": "Suit",
-    "leggingsName": "trousers",
+    "leggingsName": "Trousers",
     "bootsName": "Shoes ",
     "helmetSpecialInfo": [],
     "bodySpecialInfo": [],

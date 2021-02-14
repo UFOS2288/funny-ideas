@@ -1,0 +1,26 @@
+{
+  "group": "funnyideas1",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "funnyideas1:ruby_coin"
+    },
+    "1": {
+      "item": "funnyideas1:ruby_coin"
+    },
+    "2": {
+      "item": "funnyideas1:ruby_coin"
+    },
+    "3": {
+      "item": "funnyideas1:ruby_coin"
+    }
+  },
+  "result": {
+    "item": "funnyideas1:diamond_coin",
+    "count": 1
+  }
+}

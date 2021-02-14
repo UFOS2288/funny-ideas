@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "funnyideas1:blocks/palm_planks",
+    "top": "funnyideas1:blocks/palm_planks",
+    "side": "funnyideas1:blocks/palm_planks"
+  }
+}
