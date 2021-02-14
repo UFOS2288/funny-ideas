@@ -10,13 +10,13 @@ import net.minecraft.item.Item;
 import net.minecraft.item.Food;
 
 import net.mcreator.funnyideas.itemgroup.UFOSIdeasTabItemGroup;
-import net.mcreator.funnyideas.FunnyideasModElements;
+import net.mcreator.funnyideas.Funnyideas1ModElements;
 
-@FunnyideasModElements.ModElement.Tag
-public class CaramelItem extends FunnyideasModElements.ModElement {
-	@ObjectHolder("funnyideas:caramel")
+@Funnyideas1ModElements.ModElement.Tag
+public class CaramelItem extends Funnyideas1ModElements.ModElement {
+	@ObjectHolder("funnyideas1:caramel")
 	public static final Item block = null;
-	public CaramelItem(FunnyideasModElements instance) {
+	public CaramelItem(Funnyideas1ModElements instance) {
 		super(instance, 15);
 	}
 
@@ -27,7 +27,7 @@ public class CaramelItem extends FunnyideasModElements.ModElement {
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
 			super(new Item.Properties().group(UFOSIdeasTabItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON)
-					.food((new Food.Builder()).hunger(1).saturation(1f).build()));
+					.food((new Food.Builder()).hunger(1).saturation(1f).setAlwaysEdible().build()));
 			setRegistryName("caramel");
 		}
 

@@ -5,13 +5,13 @@ import net.minecraft.potion.EffectInstance;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.Entity;
 
-import net.mcreator.funnyideas.FunnyideasModElements;
+import net.mcreator.funnyideas.Funnyideas1ModElements;
 
 import java.util.Map;
 
-@FunnyideasModElements.ModElement.Tag
-public class BeetSauseFoodEatenProcedure extends FunnyideasModElements.ModElement {
-	public BeetSauseFoodEatenProcedure(FunnyideasModElements instance) {
+@Funnyideas1ModElements.ModElement.Tag
+public class BeetSauseFoodEatenProcedure extends Funnyideas1ModElements.ModElement {
+	public BeetSauseFoodEatenProcedure(Funnyideas1ModElements instance) {
 		super(instance, 2);
 	}
 

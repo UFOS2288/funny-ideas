@@ -1,0 +1,7 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "funnyideas1:blocks/coffee",
+    "particle": "funnyideas1:blocks/sapling"
+  }
+}

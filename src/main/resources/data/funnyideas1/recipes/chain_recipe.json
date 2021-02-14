@@ -1,0 +1,37 @@
+{
+  "group": "funnyideas1",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "funnyideas1:ring"
+    },
+    {
+      "item": "funnyideas1:ring"
+    },
+    {
+      "item": "funnyideas1:ring"
+    },
+    {
+      "item": "funnyideas1:ring"
+    },
+    {
+      "item": "funnyideas1:ring"
+    },
+    {
+      "item": "funnyideas1:ring"
+    },
+    {
+      "item": "funnyideas1:ring"
+    },
+    {
+      "item": "funnyideas1:ring"
+    },
+    {
+      "item": "funnyideas1:ring"
+    }
+  ],
+  "result": {
+    "item": "funnyideas1:chain",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "group": "funnyideas1",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:glass_bottle"
+    },
+    {
+      "item": "minecraft:poisonous_potato"
+    },
+    {
+      "item": "minecraft:beetroot"
+    }
+  ],
+  "result": {
+    "item": "funnyideas1:beet_sause",
+    "count": 1
+  }
+}

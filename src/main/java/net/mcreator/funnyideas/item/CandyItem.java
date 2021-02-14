@@ -13,13 +13,13 @@ import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.LivingEntity;
 
 import net.mcreator.funnyideas.itemgroup.UFOSIdeasTabItemGroup;
-import net.mcreator.funnyideas.FunnyideasModElements;
+import net.mcreator.funnyideas.Funnyideas1ModElements;
 
-@FunnyideasModElements.ModElement.Tag
-public class CandyItem extends FunnyideasModElements.ModElement {
-	@ObjectHolder("funnyideas:candy")
+@Funnyideas1ModElements.ModElement.Tag
+public class CandyItem extends Funnyideas1ModElements.ModElement {
+	@ObjectHolder("funnyideas1:candy")
 	public static final Item block = null;
-	public CandyItem(FunnyideasModElements instance) {
+	public CandyItem(Funnyideas1ModElements instance) {
 		super(instance, 14);
 	}
 
@@ -30,7 +30,7 @@ public class CandyItem extends FunnyideasModElements.ModElement {
 	public static class FoodItemCustom extends Item {
 		public FoodItemCustom() {
 			super(new Item.Properties().group(UFOSIdeasTabItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON)
-					.food((new Food.Builder()).hunger(1).saturation(1f).build()));
+					.food((new Food.Builder()).hunger(1).saturation(1f).setAlwaysEdible().build()));
 			setRegistryName("candy");
 		}
 

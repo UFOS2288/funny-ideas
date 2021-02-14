@@ -1,0 +1,19 @@
+{
+  "group": "funnyideas1",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "funnyideas1:pot"
+    },
+    {
+      "item": "funnyideas1:boiling_water"
+    },
+    {
+      "item": "funnyideas1:coffee"
+    }
+  ],
+  "result": {
+    "item": "funnyideas1:pot_with_coffee",
+    "count": 1
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "group": "funnyideas1",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "funnyideas1:rubin"
+    },
+    "1": {
+      "item": "funnyideas1:rubin"
+    },
+    "2": {
+      "item": "funnyideas1:rubin"
+    },
+    "3": {
+      "item": "funnyideas1:rubin"
+    },
+    "4": {
+      "item": "funnyideas1:rubin"
+    },
+    "5": {
+      "item": "funnyideas1:rubin"
+    },
+    "6": {
+      "item": "funnyideas1:rubin"
+    },
+    "7": {
+      "item": "funnyideas1:rubin"
+    },
+    "8": {
+      "item": "funnyideas1:rubin"
+    }
+  },
+  "result": {
+    "item": "funnyideas1:rubin_block",
+    "count": 1
+  }
+}

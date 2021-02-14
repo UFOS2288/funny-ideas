@@ -15,16 +15,16 @@ import net.minecraft.entity.LivingEntity;
 
 import net.mcreator.funnyideas.procedures.BoilingWaterKoghdaIedaSiedienaProcedure;
 import net.mcreator.funnyideas.itemgroup.UFOSIdeasTabItemGroup;
-import net.mcreator.funnyideas.FunnyideasModElements;
+import net.mcreator.funnyideas.Funnyideas1ModElements;
 
 import java.util.Map;
 import java.util.HashMap;
 
-@FunnyideasModElements.ModElement.Tag
-public class BoilingWaterItem extends FunnyideasModElements.ModElement {
-	@ObjectHolder("funnyideas:boiling_water")
+@Funnyideas1ModElements.ModElement.Tag
+public class BoilingWaterItem extends Funnyideas1ModElements.ModElement {
+	@ObjectHolder("funnyideas1:boiling_water")
 	public static final Item block = null;
-	public BoilingWaterItem(FunnyideasModElements instance) {
+	public BoilingWaterItem(Funnyideas1ModElements instance) {
 		super(instance, 31);
 	}
 

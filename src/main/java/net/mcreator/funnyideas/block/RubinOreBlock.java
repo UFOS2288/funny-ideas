@@ -17,6 +17,7 @@ import net.minecraft.world.dimension.DimensionType;
 import net.minecraft.world.biome.Biome;
 import net.minecraft.world.IWorld;
 import net.minecraft.util.math.BlockPos;
+import net.minecraft.util.ResourceLocation;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
@@ -27,18 +28,18 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.funnyideas.itemgroup.UFOSIdeasTabItemGroup;
-import net.mcreator.funnyideas.FunnyideasModElements;
+import net.mcreator.funnyideas.Funnyideas1ModElements;
 
 import java.util.Random;
 import java.util.List;
 import java.util.Collections;
 
-@FunnyideasModElements.ModElement.Tag
-public class RubinOreBlock extends FunnyideasModElements.ModElement {
-	@ObjectHolder("funnyideas:rubin_ore")
+@Funnyideas1ModElements.ModElement.Tag
+public class RubinOreBlock extends Funnyideas1ModElements.ModElement {
+	@ObjectHolder("funnyideas1:rubin_ore")
 	public static final Block block = null;
-	public RubinOreBlock(FunnyideasModElements instance) {
-		super(instance, 37);
+	public RubinOreBlock(Funnyideas1ModElements instance) {
+		super(instance, 72);
 	}
 
 	@Override
@@ -65,6 +66,11 @@ public class RubinOreBlock extends FunnyideasModElements.ModElement {
 	@Override
 	public void init(FMLCommonSetupEvent event) {
 		for (Biome biome : ForgeRegistries.BIOMES.getValues()) {
+			boolean biomeCriteria = false;
+			if (ForgeRegistries.BIOMES.getKey(biome).equals(new ResourceLocation("jungle")))
+				biomeCriteria = true;
+			if (!biomeCriteria)
+				continue;
 			biome.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, new OreFeature(OreFeatureConfig::deserialize) {
 				@Override
 				public boolean place(IWorld world, ChunkGenerator generator, Random rand, BlockPos pos, OreFeatureConfig config) {
@@ -81,7 +87,7 @@ public class RubinOreBlock extends FunnyideasModElements.ModElement {
 				if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
 					blockCriteria = true;
 				return blockCriteria;
-			}), block.getDefaultState(), 7)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(11, 1, 1, 63))));
+			}), block.getDefaultState(), 3)).withPlacement(Placement.COUNT_RANGE.configure(new CountRangeConfig(1, 10, 10, 20))));
 		}
 	}
 }

@@ -9,13 +9,13 @@ import net.minecraft.item.Item;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.funnyideas.itemgroup.UFOSIdeasTabItemGroup;
-import net.mcreator.funnyideas.FunnyideasModElements;
+import net.mcreator.funnyideas.Funnyideas1ModElements;
 
-@FunnyideasModElements.ModElement.Tag
-public class WrapperItem extends FunnyideasModElements.ModElement {
-	@ObjectHolder("funnyideas:wrapper")
+@Funnyideas1ModElements.ModElement.Tag
+public class WrapperItem extends Funnyideas1ModElements.ModElement {
+	@ObjectHolder("funnyideas1:wrapper")
 	public static final Item block = null;
-	public WrapperItem(FunnyideasModElements instance) {
+	public WrapperItem(Funnyideas1ModElements instance) {
 		super(instance, 9);
 	}
 

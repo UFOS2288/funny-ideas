@@ -3,7 +3,7 @@
   "_type": "food",
   "definition": {
     "renderType": 0,
-    "texture": "rottenflashcandy",
+    "texture": "rottleflashcandy100",
     "customModelName": "Normal",
     "name": "Rotten Flash Candy",
     "rarity": "COMMON",
@@ -19,7 +19,7 @@
       "value": "CUSTOM:Wrapper"
     },
     "forDogs": false,
-    "isAlwaysEdible": false,
+    "isAlwaysEdible": true,
     "animation": "eat",
     "hasGlow": false,
     "onEaten": {

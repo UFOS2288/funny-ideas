@@ -3,13 +3,13 @@ package net.mcreator.funnyideas.procedures;
 import net.minecraft.world.IWorld;
 import net.minecraft.particles.ParticleTypes;
 
-import net.mcreator.funnyideas.FunnyideasModElements;
+import net.mcreator.funnyideas.Funnyideas1ModElements;
 
 import java.util.Map;
 
-@FunnyideasModElements.ModElement.Tag
-public class PotWithCoffeeKoghdaPriedmietNakhoditsiaVRukieProcedure extends FunnyideasModElements.ModElement {
-	public PotWithCoffeeKoghdaPriedmietNakhoditsiaVRukieProcedure(FunnyideasModElements instance) {
+@Funnyideas1ModElements.ModElement.Tag
+public class PotWithCoffeeKoghdaPriedmietNakhoditsiaVRukieProcedure extends Funnyideas1ModElements.ModElement {
+	public PotWithCoffeeKoghdaPriedmietNakhoditsiaVRukieProcedure(Funnyideas1ModElements instance) {
 		super(instance, 29);
 	}
 

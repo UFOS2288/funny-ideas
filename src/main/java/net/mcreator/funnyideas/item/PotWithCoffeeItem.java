@@ -12,16 +12,16 @@ import net.minecraft.block.BlockState;
 
 import net.mcreator.funnyideas.procedures.PotWithCoffeeKoghdaPriedmietNakhoditsiaVRukieProcedure;
 import net.mcreator.funnyideas.itemgroup.UFOSIdeasTabItemGroup;
-import net.mcreator.funnyideas.FunnyideasModElements;
+import net.mcreator.funnyideas.Funnyideas1ModElements;
 
 import java.util.Map;
 import java.util.HashMap;
 
-@FunnyideasModElements.ModElement.Tag
-public class PotWithCoffeeItem extends FunnyideasModElements.ModElement {
-	@ObjectHolder("funnyideas:pot_with_coffee")
+@Funnyideas1ModElements.ModElement.Tag
+public class PotWithCoffeeItem extends Funnyideas1ModElements.ModElement {
+	@ObjectHolder("funnyideas1:pot_with_coffee")
 	public static final Item block = null;
-	public PotWithCoffeeItem(FunnyideasModElements instance) {
+	public PotWithCoffeeItem(Funnyideas1ModElements instance) {
 		super(instance, 29);
 	}
 

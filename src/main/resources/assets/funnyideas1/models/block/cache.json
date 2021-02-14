@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "funnyideas1:blocks/up_cache",
+    "up": "funnyideas1:blocks/up_cache",
+    "north": "funnyideas1:blocks/up_cache",
+    "east": "funnyideas1:blocks/up_cache",
+    "south": "funnyideas1:blocks/up_cache",
+    "west": "funnyideas1:blocks/up_cache",
+    "particle": "funnyideas1:blocks/up_cache"
+  }
+}

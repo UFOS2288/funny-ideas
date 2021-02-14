@@ -10,13 +10,13 @@ import net.minecraft.item.Item;
 import net.minecraft.item.Food;
 
 import net.mcreator.funnyideas.itemgroup.UFOSIdeasTabItemGroup;
-import net.mcreator.funnyideas.FunnyideasModElements;
+import net.mcreator.funnyideas.Funnyideas1ModElements;
 
-@FunnyideasModElements.ModElement.Tag
-public class OmletteItem extends FunnyideasModElements.ModElement {
-	@ObjectHolder("funnyideas:omlette")
+@Funnyideas1ModElements.ModElement.Tag
+public class OmletteItem extends Funnyideas1ModElements.ModElement {
+	@ObjectHolder("funnyideas1:omlette")
 	public static final Item block = null;
-	public OmletteItem(FunnyideasModElements instance) {
+	public OmletteItem(Funnyideas1ModElements instance) {
 		super(instance, 21);
 	}
 

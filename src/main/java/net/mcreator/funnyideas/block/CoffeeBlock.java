@@ -39,17 +39,17 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.funnyideas.itemgroup.UFOSIdeasTabItemGroup;
-import net.mcreator.funnyideas.FunnyideasModElements;
+import net.mcreator.funnyideas.Funnyideas1ModElements;
 
 import java.util.Random;
 import java.util.List;
 import java.util.Collections;
 
-@FunnyideasModElements.ModElement.Tag
-public class CoffeeBlock extends FunnyideasModElements.ModElement {
-	@ObjectHolder("funnyideas:coffee")
+@Funnyideas1ModElements.ModElement.Tag
+public class CoffeeBlock extends Funnyideas1ModElements.ModElement {
+	@ObjectHolder("funnyideas1:coffee")
 	public static final Block block = null;
-	public CoffeeBlock(FunnyideasModElements instance) {
+	public CoffeeBlock(Funnyideas1ModElements instance) {
 		super(instance, 22);
 	}
 

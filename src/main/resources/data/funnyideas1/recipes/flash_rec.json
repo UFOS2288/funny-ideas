@@ -1,0 +1,26 @@
+{
+  "group": "funnyideas1",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "funnyideas1:flesh"
+    },
+    "1": {
+      "item": "funnyideas1:flesh"
+    },
+    "2": {
+      "item": "funnyideas1:flesh"
+    },
+    "3": {
+      "item": "funnyideas1:flesh"
+    }
+  },
+  "result": {
+    "item": "minecraft:leather",
+    "count": 1
+  }
+}

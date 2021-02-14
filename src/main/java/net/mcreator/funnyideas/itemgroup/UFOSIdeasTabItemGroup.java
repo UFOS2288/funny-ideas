@@ -8,11 +8,11 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.block.Blocks;
 
-import net.mcreator.funnyideas.FunnyideasModElements;
+import net.mcreator.funnyideas.Funnyideas1ModElements;
 
-@FunnyideasModElements.ModElement.Tag
-public class UFOSIdeasTabItemGroup extends FunnyideasModElements.ModElement {
-	public UFOSIdeasTabItemGroup(FunnyideasModElements instance) {
+@Funnyideas1ModElements.ModElement.Tag
+public class UFOSIdeasTabItemGroup extends Funnyideas1ModElements.ModElement {
+	public UFOSIdeasTabItemGroup(Funnyideas1ModElements instance) {
 		super(instance, 1);
 	}
 

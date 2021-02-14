@@ -14,17 +14,17 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.funnyideas.itemgroup.UFOSIdeasTabItemGroup;
-import net.mcreator.funnyideas.FunnyideasModElements;
+import net.mcreator.funnyideas.Funnyideas1ModElements;
 
 import java.util.List;
 import java.util.Collections;
 
-@FunnyideasModElements.ModElement.Tag
-public class RubinBlockBlock extends FunnyideasModElements.ModElement {
-	@ObjectHolder("funnyideas:rubin_block")
+@Funnyideas1ModElements.ModElement.Tag
+public class RubinBlockBlock extends Funnyideas1ModElements.ModElement {
+	@ObjectHolder("funnyideas1:rubin_block")
 	public static final Block block = null;
-	public RubinBlockBlock(FunnyideasModElements instance) {
-		super(instance, 38);
+	public RubinBlockBlock(Funnyideas1ModElements instance) {
+		super(instance, 73);
 	}
 
 	@Override

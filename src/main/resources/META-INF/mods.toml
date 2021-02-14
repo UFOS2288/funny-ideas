@@ -2,14 +2,14 @@ modLoader="javafml"
 loaderVersion="[31,)"
 
 [[mods]]
-modId="funnyideas"
+modId="funnyideas1"
 version="1.0.0"
-displayName="Funny Ideas"
+displayName="Funny Ideas 1/2"
 credits="Ты кто? Я изя ламбер"
 displayURL="https://mcreator.net"
 authors="UFOS,DanMit, MCreator"
 
-[[dependencies.funnyideas]]
+[[dependencies.funnyideas1]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.15.2]"

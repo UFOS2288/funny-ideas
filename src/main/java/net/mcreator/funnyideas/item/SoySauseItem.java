@@ -13,16 +13,16 @@ import net.minecraft.entity.LivingEntity;
 
 import net.mcreator.funnyideas.procedures.BeetSauseFoodEatenProcedure;
 import net.mcreator.funnyideas.itemgroup.UFOSIdeasTabItemGroup;
-import net.mcreator.funnyideas.FunnyideasModElements;
+import net.mcreator.funnyideas.Funnyideas1ModElements;
 
 import java.util.Map;
 import java.util.HashMap;
 
-@FunnyideasModElements.ModElement.Tag
-public class SoySauseItem extends FunnyideasModElements.ModElement {
-	@ObjectHolder("funnyideas:soy_sause")
+@Funnyideas1ModElements.ModElement.Tag
+public class SoySauseItem extends Funnyideas1ModElements.ModElement {
+	@ObjectHolder("funnyideas1:soy_sause")
 	public static final Item block = null;
-	public SoySauseItem(FunnyideasModElements instance) {
+	public SoySauseItem(Funnyideas1ModElements instance) {
 		super(instance, 6);
 	}
 

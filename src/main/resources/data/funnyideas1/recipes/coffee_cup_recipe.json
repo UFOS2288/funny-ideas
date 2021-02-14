@@ -1,0 +1,19 @@
+{
+  "group": "funnyideas1",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "funnyideas1:cup"
+    },
+    "1": {
+      "item": "funnyideas1:pot_with_coffee"
+    }
+  },
+  "result": {
+    "item": "funnyideas1:cup_with_coffee",
+    "count": 1
+  }
+}

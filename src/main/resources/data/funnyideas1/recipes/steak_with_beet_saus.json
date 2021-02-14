@@ -1,0 +1,16 @@
+{
+  "group": "funnyideas1",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "funnyideas1:beet_sause"
+    },
+    {
+      "item": "minecraft:cooked_beef"
+    }
+  ],
+  "result": {
+    "item": "funnyideas1:steak_with_beet_sause",
+    "count": 1
+  }
+}

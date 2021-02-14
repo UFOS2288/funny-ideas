@@ -1,0 +1,22 @@
+{
+  "group": "funnyideas1",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "funnyideas1:wrapper"
+    },
+    {
+      "item": "funnyideas1:wrapper"
+    },
+    {
+      "item": "funnyideas1:wrapper"
+    },
+    {
+      "item": "funnyideas1:wrapper"
+    }
+  ],
+  "result": {
+    "item": "minecraft:paper",
+    "count": 1
+  }
+}

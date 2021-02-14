@@ -1,0 +1,39 @@
+{
+  "group": "funnyideas1",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "funnyideas1:chain"
+    },
+    "2": {
+      "item": "funnyideas1:chain"
+    },
+    "3": {
+      "item": "funnyideas1:chain"
+    },
+    "4": {
+      "item": "funnyideas1:chain"
+    },
+    "5": {
+      "item": "funnyideas1:chain"
+    },
+    "6": {
+      "item": "funnyideas1:chain"
+    },
+    "7": {
+      "item": "funnyideas1:chain"
+    },
+    "8": {
+      "item": "funnyideas1:chain"
+    }
+  },
+  "result": {
+    "item": "minecraft:chainmail_chestplate",
+    "count": 1
+  }
+}

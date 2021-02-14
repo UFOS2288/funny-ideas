@@ -1,0 +1,29 @@
+{
+  "group": "funnyideas1",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "funnyideas1:rubin"
+    },
+    "1": {
+      "item": "funnyideas1:rubin"
+    },
+    "2": {
+      "item": "funnyideas1:rubin"
+    },
+    "3": {
+      "item": "funnyideas1:rubin"
+    },
+    "5": {
+      "item": "funnyideas1:rubin"
+    }
+  },
+  "result": {
+    "item": "funnyideas1:rubins_armor_helmet",
+    "count": 1
+  }
+}

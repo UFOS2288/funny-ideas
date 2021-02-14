@@ -9,13 +9,13 @@ import net.minecraft.item.MusicDiscItem;
 import net.minecraft.item.Item;
 
 import net.mcreator.funnyideas.itemgroup.UFOSIdeasTabItemGroup;
-import net.mcreator.funnyideas.FunnyideasModElements;
+import net.mcreator.funnyideas.Funnyideas1ModElements;
 
-@FunnyideasModElements.ModElement.Tag
-public class SoPathUPItem extends FunnyideasModElements.ModElement {
-	@ObjectHolder("funnyideas:so_path_up")
+@Funnyideas1ModElements.ModElement.Tag
+public class SoPathUPItem extends Funnyideas1ModElements.ModElement {
+	@ObjectHolder("funnyideas1:so_path_up")
 	public static final Item block = null;
-	public SoPathUPItem(FunnyideasModElements instance) {
+	public SoPathUPItem(Funnyideas1ModElements instance) {
 		super(instance, 23);
 	}
 
@@ -25,7 +25,7 @@ public class SoPathUPItem extends FunnyideasModElements.ModElement {
 	}
 	public static class MusicDiscItemCustom extends MusicDiscItem {
 		public MusicDiscItemCustom() {
-			super(0, FunnyideasModElements.sounds.get(new ResourceLocation("funnyideas:videoplayback")),
+			super(0, Funnyideas1ModElements.sounds.get(new ResourceLocation("funnyideas1:videoplayback")),
 					new Item.Properties().group(UFOSIdeasTabItemGroup.tab).maxStackSize(1).rarity(Rarity.RARE));
 			setRegistryName("so_path_up");
 		}
